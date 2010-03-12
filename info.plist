@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Camping</string>
+	<key>ordering</key>
+	<array>
+		<string>9554531A-C1BC-4100-9016-70C9328670DC</string>
+		<string>A64FD3FF-5916-42DB-907F-F7C250646176</string>
+		<string>57363828-828E-446A-ADF0-C69820B54056</string>
+	</array>
+	<key>uuid</key>
+	<string>8C4D2D1B-DC82-44FF-B236-68E3488E5FFC</string>
+</dict>
+</plist>

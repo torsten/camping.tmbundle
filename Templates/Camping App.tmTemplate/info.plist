@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>[ -f "$TM_NEW_FILE" ] ||  ruby -ne 'puts $_.gsub("${TM_APP_NAME}", ENV["TM_NEW_FILE_BASENAME"].split("").inject("")do|a,i|;if a=~/[^0-9a-zA-Z]$|^$/;a[0..-2]+i.upcase;else;a+i;end;end)' &lt; template_in.rb &gt;"$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>rb</string>
+	<key>name</key>
+	<string>Camping App</string>
+	<key>scope</key>
+	<string>source.ruby.camping</string>
+	<key>uuid</key>
+	<string>57363828-828E-446A-ADF0-C69820B54056</string>
+</dict>
+</plist>
